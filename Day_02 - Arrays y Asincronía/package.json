@@ -1,0 +1,27 @@
+{
+  "name": "calculadora-cli",
+  "version": "1.0.0",
+  "description": "PROYECTO-01: Calculadora de línea de comando.",
+  "keywords": [
+    "calculator",
+    "cli",
+    "nodejs",
+    "learning"
+  ],
+  "license": "MIT",
+  "author": "Enrique Alcántara Valderas",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": {
+    "calcu": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
+
+
+
