@@ -1,27 +1,28 @@
 {
-  "name": "calculadora-cli",
+  "name": "product-processor",
   "version": "1.0.0",
-  "description": "PROYECTO-01: Calculadora de línea de comando.",
+  "description": "PROYECTO-02: Procesamiento de productos usando Arrays y Asincronia.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
   "keywords": [
-    "calculator",
-    "cli",
     "nodejs",
+    "async",
+    "filesystem",
+    "api",
+    "array",
+    "data-processing",
     "learning"
   ],
   "license": "MIT",
   "author": "Enrique Alcántara Valderas",
-  "main": "src/index.js",
-  "directories": {
-    "test": "test"
+  "engines": {
+    "node": ">=18.0.0"
   },
-  "bin": {
-    "calcu": "./src/index.js"
-  },
-  "scripts": {
-    "start": "node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
-
-
-
