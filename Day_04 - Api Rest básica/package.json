@@ -1,0 +1,32 @@
+{
+  "name": "api-products",
+  "version": "1.0.0",
+  "description": "API REST básica con Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "server",
+    "filesystem",
+    "api",
+    "array",
+    "rest",
+    "learning"
+  ],
+  "license": "ISC",
+  "author": "Enrique Alcántara Valderas",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+
+}
